@@ -1,0 +1,158 @@
+/* Imposto parametri */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Imposto corpo */
+
+header{
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.head{
+    padding: 10px;
+    background-color: orange;
+    border: 4px dotted black;
+}
+
+.box{
+    padding: 10px;
+}
+
+.box-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Imposto sezioni centrali */
+
+.first{
+    background-color: blue;
+    padding: 10px;
+}
+
+#preface{
+    width: 600px;
+    height: 250px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    margin: 30px auto;
+    border: 4px dotted black;
+}
+
+.second{
+    background-color: lightgray;
+    margin: 30px auto;
+}
+
+.to-right{
+    height: 250px;
+    margin: 30px auto;
+}
+
+.small{
+    height: 250px;
+    background-color: salmon;
+}
+
+.large{
+    height: 250px;
+    background-color: cornflowerblue;
+}
+
+.third{
+    background-color: gray;
+    margin: 30px auto;
+}
+
+.to-left{
+    width: 780;
+    height: 250px;
+    margin: 30px auto;
+}
+
+.fourth{
+    background-color: lightgray;
+    margin: 30px auto;
+}
+
+.fifth{
+    background-color: gray;
+    margin: 30px auto;
+}
+
+#double{
+    width: 780px;
+    height: 500px;
+    background-color: green;
+    margin: 30px auto;
+    border: 4px dotted black;
+}
+
+/* Imposto griglia */
+
+.sixth{
+    background-color: black;
+    margin: 30px auto;
+}
+
+.list{
+    width: 780;
+    margin: 30px auto;
+    flex-direction: row;
+}
+
+.label{
+    padding: 10px;
+}
+
+.main{
+    flex-grow: 2;
+    background-color: sandybrown;
+}
+
+.item{
+    flex-grow: 1;
+
+    background-color: cyan;
+}
+
+/* Imposto fine pagina */
+
+footer{
+    background-color: black;
+}
+
+.foot{
+    background-color: greenyellow;
+    position: relative;
+    width: 780px;
+}
+
+.button{
+    background-color: pink;
+    border: 4px dotted black;
+    display: inline-block;
+}
+
+.left{
+    width: 40px;
+}
+
+.right{
+    width: 60px;
+}
