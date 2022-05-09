@@ -6,12 +6,7 @@
     box-sizing: border-box;
 }
 
-.container-flex{
-    display: flex;
-    flex-direction: row;
-}
-
-/* Imposto corpo */
+/* Imposto logo e link */
 
 header{
     padding: 10px;
@@ -20,139 +15,159 @@ header{
 
 .container{
     width: 800px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .head{
-    padding: 10px;
+    height: 50px;
+    line-height: 40px;
     background-color: orange;
-    border: 4px dotted black;
+    display: flex;
+    justify-content: space-around;
 }
 
-.box{
-    padding: 10px;
+.link{
+    border: 3px dotted black;
 }
 
-.box-flex{
+.one{
+    width: 25%;
+}
+
+.two{
+    text-align: center;
+    width: 50%;
+}
+
+/* Imposto prefazione */
+
+.container-flex{
     display: flex;
     flex-direction: row;
 }
 
-/* Imposto sezioni centrali */
-
 .first{
     background-color: blue;
-    padding: 10px;
+    padding: 1px;
 }
 
 #preface{
     width: 600px;
-    height: 250px;
+    height: 300px;
     background-color: palevioletred;
     border-radius: 5px;
     margin: 30px auto;
-    border: 4px dotted black;
+    border: 3px dotted black;
+}
+
+/* Imposto corpo principale */
+
+.label{
+    display: flex;
+}
+
+.section{
+    padding: 30px 0 30px;
 }
 
 .second{
     background-color: lightgray;
-    margin: 30px auto;
 }
 
-.to-right{
-    height: 250px;
-    margin: 30px auto;
+.small,
+.large{
+    height: 300px;
+    border: 3px dotted black;
 }
 
 .small{
-    height: 250px;
+    width: 40%;
     background-color: salmon;
 }
 
 .large{
-    height: 250px;
+    width: 60%;
     background-color: cornflowerblue;
 }
 
 .third{
     background-color: gray;
-    margin: 30px auto;
-}
-
-.to-left{
-    width: 780;
-    height: 250px;
-    margin: 30px auto;
 }
 
 .fourth{
     background-color: lightgray;
-    margin: 30px auto;
 }
 
 .fifth{
-    background-color: gray;
-    margin: 30px auto;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
 }
 
-#double{
-    width: 780px;
-    height: 500px;
-    background-color: green;
+#ending{
+    width: 800px;
+    height: 600px;
     margin: 30px auto;
-    border: 4px dotted black;
+    background-color: green;
+    border: 3px dotted black;
 }
 
 /* Imposto griglia */
 
 .sixth{
     background-color: black;
-    margin: 30px auto;
 }
 
 .list{
-    width: 780;
-    margin: 30px auto;
+    width: 800px;
+    margin: 1px auto;
     flex-direction: row;
 }
 
-.label{
-    padding: 10px;
-}
 
 .main{
     flex-grow: 2;
     background-color: sandybrown;
+    height: 300px;
+    border: 3px dotted white;
 }
 
 .item{
     flex-grow: 1;
-
     background-color: cyan;
+    border: 3px dotted white;
 }
 
 /* Imposto fine pagina */
 
 footer{
     background-color: black;
+    border: 5px solid grey;
+    padding-top: 30px;
 }
 
 .foot{
     background-color: greenyellow;
     position: relative;
-    width: 780px;
+    width: 800px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .button{
     background-color: pink;
-    border: 4px dotted black;
+    border: 3px dotted black;
     display: inline-block;
 }
 
 .left{
     width: 40px;
+    height: 30px;
 }
 
 .right{
     width: 60px;
+    height: 30px;
 }
