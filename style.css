@@ -6,168 +6,148 @@
     box-sizing: border-box;
 }
 
-/* Imposto logo e link */
+li{
+    list-style: none;
+}
 
-header{
+.borderdot{
+    border: 2px dashed black;
+}
+
+.section-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Imposto logo e prefazione */
+
+.top-bar{
+    background-color: aqua;
     padding: 10px;
-    background-color: aquamarine;
 }
 
-.container{
-    width: 800px;
-    margin: 0px auto;
-}
-
-.head{
-    height: 50px;
-    line-height: 40px;
-    background-color: orange;
-    display: flex;
-    justify-content: space-around;
-}
-
-.link{
-    border: 3px dotted black;
-}
-
-.one{
-    width: 25%;
-}
-
-.two{
-    text-align: center;
-    width: 50%;
-}
-
-/* Imposto prefazione */
-
-.container-flex{
-    display: flex;
-    flex-direction: row;
-}
-
-.first{
-    background-color: blue;
-    padding: 1px;
-}
-
-#preface{
-    width: 600px;
-    height: 300px;
-    background-color: palevioletred;
-    border-radius: 5px;
-    margin: 30px auto;
-    border: 3px dotted black;
-}
-
-/* Imposto corpo principale */
-
-.label{
-    display: flex;
-}
-
-.section{
-    padding: 30px 0 30px;
-}
-
-.second{
-    background-color: lightgray;
-}
-
-.small,
-.large{
-    height: 300px;
-    border: 3px dotted black;
-}
-
-.small{
-    width: 40%;
-    background-color: salmon;
-}
-
-.large{
-    width: 60%;
-    background-color: cornflowerblue;
-}
-
-.third{
-    background-color: gray;
-}
-
-.fourth{
-    background-color: lightgray;
-}
-
-.fifth{
-    background-color: grey;
-    display: flex;
-    flex-direction: row;
-}
-
-#ending{
-    width: 800px;
-    height: 600px;
-    margin: 30px auto;
-    background-color: green;
-    border: 3px dotted black;
-}
-
-/* Imposto griglia */
-
-.sixth{
-    background-color: black;
-}
-
-.list{
-    width: 800px;
-    margin: 1px auto;
-    flex-direction: row;
-}
-
-
-.main{
-    flex-grow: 2;
-    background-color: sandybrown;
-    height: 300px;
-    border: 3px dotted white;
-}
-
-.item{
-    flex-grow: 1;
-    background-color: cyan;
-    border: 3px dotted white;
-}
-
-/* Imposto fine pagina */
-
-footer{
-    background-color: black;
-    border: 5px solid grey;
-    padding-top: 30px;
-}
-
-.foot{
-    background-color: greenyellow;
-    position: relative;
-    width: 800px;
-    height: 80px;
+.top-bar .content{
+    max-width: 800px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    background-color: burlywood;
 }
 
-.button{
-    background-color: pink;
-    border: 3px dotted black;
+.logo-column{
+    width: 20%;
+}
+
+.menu-column{
+    width: 60%;
+}
+
+.menu-column ul{
+    justify-content: center;
+    display: flex;
+}
+
+.menu-column ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
     display: inline-block;
 }
 
-.left{
-    width: 40px;
-    height: 30px;
+/* .menu-column ul li a:hover */
+
+.login-column{
+    width: 20%;
 }
 
-.right{
-    width: 60px;
-    height: 30px;
+.jumbotron{
+    background-color: rgb(50, 50, 197);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
 }
+
+.jumbotron .content{
+    width: 600px;
+    height: 250px;
+    background-color: pink;
+}
+
+/* Imposto corpo e colonne */
+
+section{
+    padding: 20px;
+}
+
+.section-container{
+    display: flex;
+}
+
+.big-column{
+    background-color: cornflowerblue;
+    width: 60%;
+    height: 300px;
+}
+
+.small-column{
+    background-color: salmon;
+    width: 40%;
+    height: 300px;
+}
+
+.behind{
+    background-color: lightgray;
+}
+
+.form{
+    background-color: green;
+    width: 800px;
+    height: 500px;
+}
+
+/* Form e fine pagina */
+
+footer{
+    background-color: black;
+}
+
+.footer-top{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 0 20px 0;
+}
+
+.footer-top .mix-column-lx{
+    background-color: salmon;
+    flex-basis: 30%;
+    height: 300px;
+}
+
+.footer-top .mix-column-rx{
+    display: flex;
+    flex-basis: 70%;
+    background-color: cyan;
+    height: 300px;
+    align-items: stretch;
+}
+
+.mix-column-single{
+    flex-basis: 25%;
+}
+
+.footer-bottom{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 10px 0;
+}
+
+.footer-bottom .logo-column,
+.footer-bottom .button-column{
+    background-color: orange;
+}
+
