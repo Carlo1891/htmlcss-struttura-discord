@@ -1,32 +1,32 @@
 /* Imposto parametri e configurazioni comuni */
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-li{
+li {
     list-style: none;
 }
 
-.borderdot{
+.borderdot {
     border: 2px dashed black;
 }
 
-.section-container{
+.section-container {
     max-width: 800px;
     margin: 0 auto;
 }
 
 /* Imposto logo e prefazione */
 
-.top-bar{
+.top-bar {
     background-color: aqua;
     padding: 10px;
 }
 
-.top-bar .content{
+.top-bar .content {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
@@ -34,20 +34,20 @@ li{
     background-color: burlywood;
 }
 
-.logo-column{
+.logo-column {
     width: 20%;
 }
 
-.menu-column{
+.menu-column {
     width: 60%;
 }
 
-.menu-column ul{
+.menu-column ul {
     justify-content: center;
     display: flex;
 }
 
-.menu-column ul li a{
+.menu-column ul li a {
     text-decoration: none;
     color: black;
     padding: 5px 10px;
@@ -56,11 +56,11 @@ li{
 
 /* .menu-column ul li a:hover */
 
-.login-column{
+.login-column {
     width: 20%;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: rgb(50, 50, 197);
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@ li{
     align-items: center;
 }
 
-.jumbotron .content{
+.jumbotron .content {
     width: 600px;
     height: 250px;
     background-color: pink;
@@ -76,31 +76,31 @@ li{
 
 /* Imposto corpo e colonne */
 
-section{
+section {
     padding: 20px;
 }
 
-.section-container{
+.section-container {
     display: flex;
 }
 
-.big-column{
+.big-column {
     background-color: cornflowerblue;
     width: 60%;
     height: 300px;
 }
 
-.small-column{
+.small-column {
     background-color: salmon;
     width: 40%;
     height: 300px;
 }
 
-.behind{
+.behind {
     background-color: lightgray;
 }
 
-.form{
+.form {
     background-color: green;
     width: 800px;
     height: 500px;
@@ -108,24 +108,24 @@ section{
 
 /* Form e fine pagina */
 
-footer{
+footer {
     background-color: black;
 }
 
-.footer-top{
+.footer-top {
     width: 800px;
     margin: 0 auto;
     display: flex;
     padding: 20px 0 20px 0;
 }
 
-.footer-top .mix-column-lx{
+.footer-top .mix-column-lx {
     background-color: salmon;
     flex-basis: 30%;
     height: 300px;
 }
 
-.footer-top .mix-column-rx{
+.footer-top .mix-column-rx {
     display: flex;
     flex-basis: 70%;
     background-color: cyan;
@@ -133,11 +133,11 @@ footer{
     align-items: stretch;
 }
 
-.mix-column-single{
+.mix-column-single {
     flex-basis: 25%;
 }
 
-.footer-bottom{
+.footer-bottom { 
     width: 800px;
     margin: 0 auto;
     display: flex;
@@ -147,7 +147,7 @@ footer{
 }
 
 .footer-bottom .logo-column,
-.footer-bottom .button-column{
+.footer-bottom .button-column {
     background-color: orange;
 }
 
